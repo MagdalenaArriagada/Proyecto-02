@@ -23,11 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
         mostrarTarea();
 })
 
- 
 function validarFormulario(e) {
     e.preventDefault();
 
-     
     if (nombreTareaInput.value === '' || descripcionTareaInput.value === '') {
         alert('Debe ingresar valores en ambos campos');
         return;
